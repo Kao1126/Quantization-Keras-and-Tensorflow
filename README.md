@@ -1,16 +1,16 @@
 # QuantizationCNN-Tensorflow
 Implementation quantization-aware training on classification model with Tensorflow and Keras
 
-# Requirement 
+## Requirement 
 tensorflow - 1.15.0
 Ubuntu - 16.04
 
 ## Introduction
+It is based on Tensorflow 1.15.0, it can help your CNN model to do quantization-aware training simply, all you need to do is prepare your Keras model and dataset.
+
 The quantization-aware training will transform int8 from float32.Int8 can be compiled on Edge TPU or mobile device.
 It uses fake quantization nodes to simulate the effect of quantization when you're training.
 The code will use quantization-aware training to produce checkpoints(.data, .mete, .index) in checkpoint folder, and then export them into the new .pd file.
-
-It is based on Tensorflow 1.15.0, it can help you to quantize directly, all you need to do is prepare your Keras model and dataset.
 
 ## How to use this code
 
@@ -34,13 +34,14 @@ It is based on Tensorflow 1.15.0, it can help you to quantize directly, all you 
      '
              
 3. Try the quantize model works by running it through the main.py script:
+##
     python main.py \
     --model_path  your/model/path \
     --epoch  ChooseYourEpoch \
     --batch_size  ChooseYourBatchSize
     
-4. You can get the .pd file that the model has been quantized
- 
+4. You can get the .pd file that your model has been quantized
+
 ## Example
     python main.py \
     --model_path  ./model/example_VGG/model.h5 \
