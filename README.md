@@ -3,6 +3,7 @@ Implementation quantization-aware training on classification model with Tensorfl
 
 ## Requirement 
 tensorflow - 1.15.0
+
 Ubuntu - 16.04
 
 ## Introduction
