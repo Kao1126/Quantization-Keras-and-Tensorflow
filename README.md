@@ -18,6 +18,7 @@ The code will use quantization-aware training to produce checkpoints(.data, .met
    , optimizer to create your own model (save as model.h5).
 
 2. Prepare your data in data folder:
+##
     train--
           -class1
           -class2
