@@ -1,5 +1,6 @@
 # Quantization-Keras and Tensorflow
-Implementation quantization-aware training on classification model with Tensorflow and Keras
+Implementation quantization-aware training on classification model with Tensorflow and Keras.
+
 (Keras was be included by Tensorflow in this version)
 
 ## Requirement 
