@@ -1,5 +1,6 @@
-# QuantizationCNN-Tensorflow
+# Quantization-Keras and Tensorflow
 Implementation quantization-aware training on classification model with Tensorflow and Keras
+(Keras was be included by Tensorflow in this version)
 
 ## Requirement 
 tensorflow - 1.15.0
@@ -28,12 +29,19 @@ The code will use quantization-aware training to produce checkpoints(.data, .met
                   '
                   '
                   '
-    val--
+    test--
           -class1
           -class2
-     '
-     '
-     '
+              - 1.jpg
+                  '
+                  '
+                  '
+    
+    val--
+          -class1
+             '
+             '  
+             '
              
 3. Try the quantize model works by running it through the main.py script:
 ##
