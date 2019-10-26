@@ -15,7 +15,7 @@ The quantization-aware training will transform int8 from float32.Int8 can be com
 It uses fake quantization nodes to simulate the effect of quantization when you're training.
 The code will use quantization-aware training to produce checkpoints(.data, .mete, .index) in checkpoint folder, and then export them into the new .pd file.
 
-## How to use this code
+## Usage
 
 1. You can refer to model/example_VGG/VGG.py to choose the learning rate
    , optimizer to create your own model (save as model.h5).
