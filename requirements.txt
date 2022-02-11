@@ -25,7 +25,7 @@ numba==0.44.1
 numpy==1.16.4
 Pillow==6.2.0
 pkg-resources==0.0.0
-protobuf==3.8.0
+protobuf==3.15.0
 pycodestyle==2.5.0
 pydot-ng==2.0.0
 pylint==2.3.1
