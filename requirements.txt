@@ -43,5 +43,5 @@ termcolor==1.1.0
 tf-estimator-nightly==1.14.0.dev2019062701
 tf-nightly==1.15.0.dev20190627
 typed-ast==1.4.0
-Werkzeug==0.15.4
+Werkzeug==0.15.5
 wrapt==1.11.2
